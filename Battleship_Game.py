@@ -21,3 +21,12 @@ def random_row(board):
 
 def random_col(board):
     return randint(0,len(board)-1)
+
+ship_row = random_row(board)
+ship_col = random_col(board)
+
+guess_row = int(input("Guess Row:"))
+guess_col = int(input("Guess Col: "))
+
+print (ship_col)
+print (ship_row)
